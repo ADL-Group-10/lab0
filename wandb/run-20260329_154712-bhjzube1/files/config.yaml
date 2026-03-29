@@ -1,0 +1,72 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            71dttrtp38bsbahrs4tythtviv749lz6:
+                codePath: lab0/02_transfer_learning.ipynb
+                cpu_count: 32
+                cpu_count_logical: 64
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "1889088135168"
+                        used: "177020289024"
+                email: dhashr-3@student.ltu.se
+                executable: /usr/bin/python3
+                git:
+                    commit: fbdfe256928d01f63502619c903862c8cfe80486
+                    remote: https://github.com/ADL-Group-10/lab0.git
+                gpu: NVIDIA GeForce RTX 2080 Ti
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-9712c37b-c5b4-17e6-3f71-64108c89e3e4
+                host: adl-10-5dbc99f6d8-n9v4n
+                memory:
+                    total: "270081490944"
+                os: Linux-5.15.0-168-generic-x86_64-with-glibc2.35
+                program: lab0/02_transfer_learning.ipynb
+                python: CPython 3.11.15
+                root: /lab0
+                startedAt: "2026-03-29T13:47:12.058256Z"
+                writerId: 71dttrtp38bsbahrs4tythtviv749lz6
+        m: []
+        python_version: 3.11.15
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.11.15
+            "5": 0.25.1
+            "8":
+                - 1
+            "12": 0.25.1
+            "13": linux-x86_64
+architecture:
+    value: CNN
+epochs:
+    value: 10
+frozen_layers:
+    value: conv_block
+learning_rate:
+    value: 0.001
+mode:
+    value: transfer_learning
+optimizer:
+    value: Adam
+source_dataset:
+    value: MNIST
+target_dataset:
+    value: SVHN
+trainable_layers:
+    value: fc_block

@@ -1,0 +1,66 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            cp3oasszxsvq06vwt99f9zjcmwx5xi5w:
+                codePath: lab0/02_transfer_learning.ipynb
+                cpu_count: 32
+                cpu_count_logical: 64
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "1889088135168"
+                        used: "177019633664"
+                email: dhashr-3@student.ltu.se
+                executable: /usr/bin/python3
+                git:
+                    commit: fbdfe256928d01f63502619c903862c8cfe80486
+                    remote: https://github.com/ADL-Group-10/lab0.git
+                gpu: NVIDIA GeForce RTX 2080 Ti
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 4352
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce RTX 2080 Ti
+                      uuid: GPU-9712c37b-c5b4-17e6-3f71-64108c89e3e4
+                host: adl-10-5dbc99f6d8-n9v4n
+                memory:
+                    total: "270081490944"
+                os: Linux-5.15.0-168-generic-x86_64-with-glibc2.35
+                program: lab0/02_transfer_learning.ipynb
+                python: CPython 3.11.15
+                root: /lab0
+                startedAt: "2026-03-29T13:42:02.845251Z"
+                writerId: cp3oasszxsvq06vwt99f9zjcmwx5xi5w
+        m: []
+        python_version: 3.11.15
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.11.15
+            "5": 0.25.1
+            "8":
+                - 1
+            "12": 0.25.1
+            "13": linux-x86_64
+activation:
+    value: LeakyReLU
+architecture:
+    value: CNN
+dataset:
+    value: MNIST
+epochs:
+    value: 10
+learning_rate:
+    value: 0.001
+optimizer:
+    value: Adam
